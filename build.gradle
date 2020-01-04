@@ -3,7 +3,9 @@
 buildscript {
     repositories {
         google()
-        jcenter()
+        jcenter{ url "http://jcenter.bintray.com/"}
+        mavenCentral()
+        maven{url"https://maven.google.com"}
         
     }
     dependencies {
@@ -17,8 +19,10 @@ buildscript {
 allprojects {
     repositories {
         google()
-        jcenter()
-        
+        jcenter{ url "http://jcenter.bintray.com/"}
+        mavenCentral()  //注：repository 2
+        maven{url"https://maven.google.com"}
+        maven { url 'https://jitpack.io' }
     }
 }
 

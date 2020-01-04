@@ -1,2 +1,2 @@
-include ':app'
+include ':app', ':libutil', ':libwidget'
 rootProject.name='Myapp'

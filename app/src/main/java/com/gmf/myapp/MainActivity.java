@@ -1,14 +1,13 @@
 package com.gmf.myapp;
 
-import android.os.Bundle;
+import com.gmf.myapp.base.StatusBarActivity;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-public class MainActivity extends AppCompatActivity {
-
+/**
+ * Created by gmf on 2019/8/14/15:32
+ */
+public class MainActivity extends StatusBarActivity {
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+    protected int findLayoutResID() {
+        return R.layout.activity_main;
     }
 }
