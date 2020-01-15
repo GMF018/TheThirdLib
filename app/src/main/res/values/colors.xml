@@ -6,6 +6,8 @@
     <!-- status color-->
     <color name="status_bar_color">#FCB702</color>
     <color name="status_bar_color2">#dddddd</color>
-
     <color name="black_overlay">#66000000</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
 </resources>
